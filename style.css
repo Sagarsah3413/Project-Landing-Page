@@ -1,0 +1,188 @@
+
+    :root {
+      --dark-bg: #1F2937;
+      --hero-main: #F9FAF8;
+      --hero-secondary: #E5E7EB;
+      --button-blue: #3882F6;
+      --quote-bg: #E5E7EB;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Roboto', sans-serif;
+    }
+
+    body {
+      line-height: 1.6;
+    }
+
+    /* HEADER */
+    header {
+      background: var(--dark-bg);
+      padding: 16px 120px;
+    }
+
+    .headerdiv {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    header h3 {
+      font-size: 24px;
+      color: var(--hero-main);
+    }
+
+    .headerul {
+      display: flex;
+      gap: 24px;
+      list-style: none;
+    }
+
+    .headerul a {
+      text-decoration: none;
+      font-size: 18px;
+      color: var(--hero-secondary);
+    }
+
+    /* HERO */
+    .hero {
+      background: var(--dark-bg);
+      padding: 80px 120px;
+      display: flex;
+      gap: 48px;
+      align-items: center;
+    }
+
+    .hero-text {
+      flex: 1;
+    }
+
+    .hero-text h1 {
+      font-size: 48px;
+      font-weight: 900;
+      color: var(--hero-main);
+      margin-bottom: 16px;
+    }
+
+    .hero-text p {
+      font-size: 18px;
+      color: var(--hero-secondary);
+      margin-bottom: 16px;
+    }
+
+    .hero-text button {
+      background: var(--button-blue);
+      color: #fff;
+      border: none;
+      padding: 8px 32px;
+      border-radius: 8px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    .hero-image {
+      flex: 1;
+      background: #6b7280;
+      height: 250px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #fff;
+    }
+
+    /* INFORMATION SECTION */
+    .info {
+      padding: 60px 120px;
+      text-align: center;
+    }
+
+    .info h2 {
+      font-size: 36px;
+      font-weight: 900;
+      color: var(--dark-bg);
+      margin-bottom: 40px;
+    }
+
+    .info-cards {
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+    }
+
+    .card {
+      max-width: 150px;
+    }
+
+    .card-box {
+      width: 150px;
+      height: 150px;
+      border: 3px solid var(--button-blue);
+      border-radius: 12px;
+      margin-bottom: 8px;
+    }
+
+    .card p {
+      font-size: 14px;
+      color: var(--dark-bg);
+    }
+
+    /* QUOTE */
+    .quote {
+      background: var(--quote-bg);
+      padding: 80px 200px;
+    }
+
+    .quote p {
+      font-size: 36px;
+      font-weight: 300;
+      color: var(--dark-bg);
+      font-style: italic;
+    }
+
+    .quote span {
+      display: block;
+      text-align: right;
+      font-weight: 900;
+      margin-top: 16px;
+    }
+
+    /* CALL TO ACTION */
+    .cta {
+      padding: 80px 120px;
+    }
+
+    .cta-box {
+      background: var(--button-blue);
+      color: #fff;
+      border-radius: 8px;
+      padding: 40px 80px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .cta-box h4 {
+      font-size: 20px;
+      margin-bottom: 8px;
+    }
+
+    .cta-box button {
+      background: transparent;
+      border: 2px solid #fff;
+      color: #fff;
+      padding: 8px 32px;
+      border-radius: 8px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    /* FOOTER */
+    footer {
+      background: var(--dark-bg);
+      color: var(--hero-secondary);
+      text-align: center;
+      padding: 32px;
+    }
